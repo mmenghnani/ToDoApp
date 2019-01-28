@@ -1,0 +1,71 @@
+h1, p {
+  font-family: Lato;
+}
+
+body {
+  padding: 50px;
+ /*background-color: #66CCFF; */
+  font-family: sans-serif;
+}
+
+.header-title {
+  text-align: center
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+.header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #FFF;
+  width: 165px;
+}
+
+.header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #0066FF;
+  color: #FFF;
+  border: 2px solid #0066FF;
+  border-radius: 20px;
+}
+.header button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+.theList {
+  list-style: none;
+  padding-left: 0;
+  width: 250px;
+} 
+
+.theList li {
+  color: #333;
+  background-color: rgba(66,184,255,.5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+}
+li.theList {
+  padding: 0;
+}
+
+.button {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background : rgb(66, 184, 221)
+}
+
+.textDecoration {
+  text-decoration: line-through;
+  color :black;
+
+}
